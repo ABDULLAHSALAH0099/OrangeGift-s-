@@ -170,28 +170,6 @@ elif (r1["SignInUserResult"]["ErrorCode"])==9:
 #####################################
 
 
-import hashlib,requests,json
-
-headers = {
-    'Content-Type': 'application/json; charset=UTF-8',
-     'Content-Length': '78',
-    'Host': 'services.orange.eg',
-    'Connection': 'Keep-Alive',
-     'Accept-Encoding': 'gzip',
-    'User-Agent': 'okhttp/3.12.0',
-}
-
-data = {"channel":{"ChannelName":"MobinilAndMe","Password":"ig3yh*mk5l42@oj7QAR8yF"}}
-
-re = requests.post('https://services.orange.eg/GetToken.svc/GenerateToken', headers=headers, json=data).json()
-
-x=re.get("GenerateTokenResult")
-#c=(x.get("Token"))
-print()
-a_string =x.get("Token")
-
-hashed_string = hashlib.sha256(a_string.encode('utf-8')).hexdigest()
-z=(hashed_string.upper())
 
 
 
@@ -241,7 +219,7 @@ elif (r2["OfferId"])=="" and (r2["ErrorCode"])==218:
 elif(r2["ErrorCode"])==219:
     print ('\033[1;91mYou take before, Try after some days')
     exit()
-if (r2["OfferId"])=="2":
+elif (r2["OfferId"])=="2":
     print ('\033[1;96mCongratulation, You have 500 mg')
 elif (r2["OfferId"])=="4":    
     print ('\033[1;96mCongratulation, You have 1000 mg')
@@ -257,7 +235,7 @@ elif (r2["OfferId"]) =="1":
 print ()
 
 print ('='*60)
-sleep (7)
+sleep (5)
 os.system ('clear')
 
 
@@ -307,7 +285,7 @@ if True :
     print ()
     
     if (r.json()["ErrorCode"])==0:
-        print ('\033[1;96mDone Add Megabytes')
+        print ('\033[1;96mDone Added Megabytes')
     elif(r.json()["ErrorCode"])==13:
         print ('\033[1;91mctv & htv unexpired')
         print ('be fast')
