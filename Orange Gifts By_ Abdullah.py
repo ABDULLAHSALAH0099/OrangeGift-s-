@@ -8,25 +8,25 @@ print ()
 print ('\033[1;92mclick on this link to get password👇')
 #sleep (0.1)
 print ()
-link="\033[1;93m https://pastelink.net/vsngvbe8"
+link="\033[1;93m https://miklpro.com/9aw3qf"
 print (link)
 #sleep (1)
 print ()
 password=input ('\033[1;92m》Enter Password Script :  \033[1;96m')
 sleep (1)
 
-rrr=requests.get('https://pastelink.net/vsngvbe8').text
+'''rrr=requests.get('https://pastelink.net/vsngvbe8').text
 soup=BS(rrr,'html.parser')
-lxc=(soup.find('div',{'class':'body-display'})).text
+lxc=(soup.find('div',{'class':'body-display'})).text'''
 
-if password in lxc:
+if password == "Abdullah3456"  #in lxc:
     print ()
     print ('\033[1;96m》True Password《')
     sleep (1)
 else:
     print ()
     print ('\033[1;91mError Password')
-    #exit()
+    exit()
 import time, sys 
 print ()
 
@@ -42,25 +42,25 @@ c=('\033[1;092m××××××××××××××××××××××××××××××××�
 for I in c+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
-	time.sleep (00.0020)
+	time.sleep (00.020)
 print ()
 d =('\033[1;092m########### Welcome To Abdullah Script ########')
 for I in d +'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
-	time.sleep (00.0040)
+	time.sleep (00.040)
 print ()
 p=('\033[1;092m########## Script Orange 200:1000 MG #########')
 for I in p+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
-	time.sleep (00.0040)
+	time.sleep (00.040)
 print ()
 u=('\033[1;092m######### Projected By Abdullah Salah########')
 for I in u+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
-	time.sleep (00.0040)
+	time.sleep (00.040)
 
 print ('\033[1;092m')
 
