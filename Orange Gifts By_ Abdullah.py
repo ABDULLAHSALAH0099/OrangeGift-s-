@@ -8,7 +8,7 @@ print ()
 print ('\033[1;92mclick on this link to get password👇')
 #sleep (0.1)
 print ()
-link="\033[1;93m https://miklpro.com/9aw3qf"
+link="\033[1;93m https://miklpro.com/yPVJYH"
 print (link)
 #sleep (1)
 print ()
@@ -19,7 +19,7 @@ sleep (1)
 soup=BS(rrr,'html.parser')
 lxc=(soup.find('div',{'class':'body-display'})).text'''
 
-if password == "Abdullah3456": #in lxc:
+if password == "Abdullah5010": #in lxc:
     print ()
     print ('\033[1;96m》True Password《')
     sleep (1)
